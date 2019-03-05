@@ -116,12 +116,17 @@ section{
 
 #contact{
   border:inset red;
-  background-image: url(gallary/wallpaper2.jpg);
+  background-image: url(gallary/wallpaper3.jpg);
+  animation: backgroundScroll 15s linear 1;
   background-repeat: no-repeat;
   background-clip: border-box;
-  background-size:100% 100%;
-  background-position: center;
+  background-position:center;
   background-attachment: inherit;
+}
+@keyframes backgroundScroll{
+  from {background-position: 0% 0%;}
+  to {background-position: 50% 50%;}
+ 
 }
 
 .box{
