@@ -117,7 +117,7 @@ section{
 #contact{
   border:inset red;
   background-image: url(gallary/wallpaper3.jpg);
-  animation: backgroundScroll 15s linear 1;
+  animation: backgroundScroll 300s linear 1 ;
   background-repeat: no-repeat;
   background-clip: border-box;
   background-position:center;
