@@ -37,7 +37,7 @@ background: rgba(204, 175, 175, 0.753);
   color: white;
 }
 /*text align*/
-p{
+p:not("ans"){
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: gold;
@@ -49,6 +49,13 @@ h1{
   color: firebrick;
   margin: 30px -0 50px;
 }
+/*style the li test*/
+li{
+  font-size: 40;
+ }
+ ul{
+   padding: 20px;
+ }
 /*photo gallery start*/
 .gallary{
  
@@ -78,7 +85,7 @@ h1{
 section{
   border:1px;
 }
-/*iras sites*/
+/*wiz sites*/
 #about{
   border: groove red;
   border:inset red;
@@ -112,6 +119,7 @@ section{
 }
 #spa{
   border:inset black;
+
 }
 
 #contact{
