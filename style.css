@@ -52,6 +52,7 @@ h1{
 /*style the li test*/
 li{
   font-size: 40;
+  align-items: center
  }
  ul{
    padding: 20px;
@@ -136,7 +137,10 @@ section{
   to {background-position: 50% 50%;}
  
 }
-
+#leftcolumn{
+  
+  align-items: center;
+}
 .box{
   text-align: center;
 }
